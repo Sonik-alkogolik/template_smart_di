@@ -1,0 +1,209 @@
+
+.section.digital-page {
+    margin-top: -155px;
+}
+.hero._inner-page.digital-page .hero__img {
+    background-image: url(/img/digital-сommunications.png);
+    background-size: cover;
+    width: 100%;
+    height: 632px; 
+}
+.text-block.section.digital-page h2 {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 114.99999999999999%;
+    letter-spacing: 0%;
+    color: #121212;
+    text-align: left;
+}
+
+.text-block.section.digital-page p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: 0%;
+    color: #121212;
+    max-width: 518px;
+    width: 100%;
+    text-align: left;
+}
+
+.text-block.section.digital-page .container {
+    margin-top: 10px;
+}
+
+.section.product_offer {
+    margin-top: 12px;
+    padding: 500px 0 539px 0;
+    background-image: url(/img/products_offer_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section.product_offer p {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 114.99999999999999%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 155px;
+    right: 120px;
+    max-width: 792px;
+    width: 100%;
+    height: 255px;
+}
+.operational_cost {
+    padding-top: 200px;
+    padding-bottom: 230px;
+}
+.operational_cost p {
+    color: #4CC9F0;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 115%;
+}
+.operational_cost p span {
+    background: linear-gradient(89deg, #4CC9F0 35.65%, #D3F5FF 74.64%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+@media(max-width:1024px){
+
+    .hero._inner-page.digital-page .hero__img {
+        background-image: url(/img/digital-сommunications_tablet.png);
+    }
+    
+    .operational_cost p br {
+        display: none;
+    }
+    .section.product_offer {
+        background: linear-gradient(180deg, rgba(8, 13, 18, 0) 41.2%, #080D12 91.15%), url(/img/products_offer_bg_tablet.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 920px;
+    }
+    .section.product_offer p {
+        max-width: 505px;
+        height: auto;
+        margin: 0;
+        bottom: 100px;
+        right: 130px;
+    }
+    .operational_cost {
+        margin-top: -35px;
+    }
+    
+}
+
+@media(max-width:880px){
+    .text-block.section.digital-page .container {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .text-block.section.digital-page p {
+        max-width: 457px;
+    }
+}
+
+@media(max-width:768px){
+    .hero._inner-page.digital-page .hero__img {
+        height: 590px;
+    }
+    .section.digital-page {
+        margin-top: -30px;
+        padding: 100px 0 130px 0;
+    }
+    .text-block.section.digital-page h2 {
+        font-size: 44px;
+    }
+    .section.product_offer p {
+        max-width: 400px;
+        height: auto;
+        margin: 0;
+        bottom: 100px;
+        right: 7%;
+    }
+    .operational_cost p {
+        font-size: 38px;
+    }
+}
+
+@media(max-width:540px){
+    .hero._inner-page.digital-page .hero__img {
+        background-image: url(/img/digital-сommunications_mob.png);
+        height: 400px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .section.digital-page {
+        margin-top: -30px;
+        padding: 80px 0 80px 0;
+    }
+    .text-block.section.digital-page h2 {
+        font-size: 36px;
+    }
+    .text-block.section.digital-page p {
+        max-width: 100%;
+        font-size: 22px;
+    }
+  
+    .section.product_offer p {
+        max-width: 306px;
+        font-size: 30px;
+        bottom: 126px;
+        right: 1%;
+    }
+    .section.product_offer {
+        background: linear-gradient(180deg, rgba(8, 13, 18, 0) 95.2%, #080D12 194.15%
+        194.15%
+        ), url(/img/products_offer_bg_mob.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        height: 1083px;
+        padding: 0;
+    }
+    .operational_cost p {
+        font-size: 30px;
+    }
+    .operational_cost {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+}
+
+@media(max-width:420px){
+    .hero._inner-page.digital-page .hero__img {
+        height: 356px;
+    }
+    .section.product_offer {
+        height: 920px;
+    }
+
+}
+
+@media(max-width:375px){
+    .hero._inner-page.digital-page .hero__img {
+        height: 326px;
+    }
+    .text-block.section.digital-page h2 {
+        font-size: 34px;
+    }
+    .section.product_offer {
+        height: 836px;
+    }
+}

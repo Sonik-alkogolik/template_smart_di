@@ -3777,7 +3777,7 @@
   
   .join-us {
     padding: 130px 0 190px 0;
-    background-image: url("../img/form-bg.png");
+    background-image: url(/img-template/form-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
